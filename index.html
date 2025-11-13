@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aloe Import India | Winoccean Pvt. Ltd.</title>
+
+  <style>
+    /* ===== GLOBAL RESET ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f6f8fc;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      background: linear-gradient(90deg, #0056ff, #0039a6);
+      padding: 20px 60px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    header img {
+      height: 40px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      font-weight: 500;
+      color: white;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffb700;
+    }
+
+    /* ===== HERO SECTION ===== */
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+        url('https://images.unsplash.com/photo-1581091870631-1b1a3d57b2a0?auto=format&fit=crop&w=1600&q=80')
+        center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 140px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 15px;
+    }
+
+    .hero button {
+      background: #ffb700;
+      border: none;
+      padding: 14px 36px;
+      margin-top: 30px;
+      border-radius: 30px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .hero button:hover {
+      background: white;
+      color: #0039a6;
+    }
+
+    /* ===== SECTIONS ===== */
+    section {
+      padding: 80px 60px;
+      text-align: center;
+    }
+
+    section:nth-child(even) {
+      background: #ffffff;
+    }
+
+    section:nth-child(odd) {
+      background: #f0f4ff;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      color: #0a1f44;
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.7;
+      font-size: 1.05rem;
+    }
+
+    /* ===== SERVICES ===== */
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .service-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 30px 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .service-card img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+
+    .service-card h3 {
+      color: #0039a6;
+      margin-bottom: 10px;
+    }
+
+    /* ===== GALLERY ===== */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: #0039a6;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      position: relative;
+    }
+
+    footer img {
+      width: 160px;
+      display: block;
+      margin: 20px auto;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+      margin-top: 10px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Logo_placeholder.png" alt="Aloe Logo" />
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Empowering Imports, Simplifying Supply</h1>
+    <p>We connect the best global manufacturers with Indian distributors — trusted by businesses worldwide.</p>
+    <button>Get in Touch</button>
+  </section>
+
+  <section id="about">
+    <h2>About Aloe Import India</h2>
+    <p>Aloe Import India, a venture by <strong>Winoccean Private Limited</strong>, bridges global manufacturers and Indian markets. We handle the full process — from import facilitation and quality assurance to end-market distribution — ensuring efficiency, transparency, and reliability.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Core Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/679/679922.png" alt="">
+        <h3>Global Sourcing</h3>
+        <p>We connect you with verified global manufacturers and manage full import logistics.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2910/2910768.png" alt="">
+        <h3>Product Promotion</h3>
+        <p>We help foreign manufacturers establish strong visibility through professional promotion in India.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" alt="">
+        <h3>Distribution Network</h3>
+        <p>We match your products with reliable Indian distributors to ensure maximum reach and performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Our Work in Action</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1590490359864-3c64f474b8f2?auto=format&fit=crop&w=800&q=80" alt="">
+      <img src="https://images.unsplash.com/photo-1581091870631-1b1a3d57b2a0?auto=format&fit=crop&w=800&q=80" alt="">
+      <img src="https://images.unsplash.com/photo-1604975860747-1ecf5a4345d7?auto=format&fit=crop&w=800&q=80" alt="">
+      <img src="https://images.unsplash.com/photo-1604976176876-063b471f1a74?auto=format&fit=crop&w=800&q=80" alt="">
+    </div>
+  </section>
+
+  <footer id="contact">
+    <img src="Winoccean logo original.svg" alt="Winoccean Logo">
+    <p>© 2025 Winoccean Private Limited. All Rights Reserved.</p>
+    <p>Email: contact@winoccean.com | Phone: +91-XXXXXXXXXX</p>
+  </footer>
+</body>
+</html>
